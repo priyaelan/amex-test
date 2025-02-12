@@ -1,10 +1,10 @@
-repoCleaner - GitHub Repository & Branch Cleanup Utility
+## repoCleaner - GitHub Repository & Branch Cleanup Utility
 
-Overview
+## Overview
 
 repoCleaner is a shell script that automates the cleanup of stale branches in GitHub repositories based on a predefined time window. It provides an interactive way for users to review and delete branches that haven't been updated in over a year.
 
-Features
+## Features
 
 Reads a list of repositories from masterRepoList.txt.
 
@@ -18,9 +18,7 @@ Provides an executive summary of deleted branches and recommendations for reposi
 
 Handles network failures and can resume from the last checkpoint.
 
-Prerequisites
-
-Required Tools
+## Prerequisites
 
 Ensure the following dependencies are installed:
 
@@ -34,8 +32,10 @@ GitHub Personal Access Token
 
 Running repoCleaner
 
-Make the script executable:
+## Make the script executable:
 
 chmod +x repoCleaner.sh
 
-Run the script: ./repoCleaner.sh
+## Run the script: 
+
+./repoCleaner.sh
